@@ -83,4 +83,30 @@ input = masukkan data
 indentasi = minimal 2x atau 4x
 hasil perbandingan == berupa boolean (true/false)
 string, list, 0, none boolean adalah false
+_ bisa digunain untuk nambahin var printed terakhir 
+misal tax = 12.5 / 100
+price = 100.50
+price * tax
+12.5625
+price + _ (ini itu +hasil sebelumnya)
+113.0625
+round(_, 2) (ini keknya dibuletin dan diambil 2 angka belakang koma deh)
+113.06
+
+kalo ada kata yg pake ' didalam string, bisa kekgini
+'doesn\'t'  # use \' to escape the single quote...
+"doesn't"  # ...or use double quotes instead
+'"Yes," they said.'
+"\"Yes,\" they said."
+'"Isn\'t," they said.'
+
+s = 'First line.\nSecond line.'  # \n means newline
+s  # without print(), special characters are included in the string
+
+print(s)  # with print(), special characters are interpreted, so \n produces new line
+
+print('C:\this\name')  # here \t means tab, \n means newline
+
+
+print(r'C:\this\name')  # note the r before the quote
 
