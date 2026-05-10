@@ -38,26 +38,26 @@ angka ke2: 5
 - If / Elif / Else
 - Debugging
 
-def tambah(x, y): >> define fungsi (tambah) dengan parameter (x, y) dan operasi (return x + y)
+- def tambah(x, y): >> define fungsi (tambah) dengan parameter (x, y) dan operasi (return x + y)
     return x + y
 
-def kurang(x, y):
+- def kurang(x, y):
     return x - y
 
-def kali(x, y):
+- def kali(x, y):
     return x * y
 
-def bagi(x, y):
+- def bagi(x, y):
     return x / y
 
 
-pilih = (input('pilih tambah, kurang, kali atau bagi: ')) (user menginput operasi yang akan dilakukan)
+- pilih = (input('pilih tambah, kurang, kali atau bagi: ')) (user menginput operasi yang akan dilakukan)
 
-Pemilihan angka
+# Pemilihan angka
 x = float(input('angka ke1: ')) 
 y = float(input('angka ke2: '))
 
-Kondisi Logika
+# Kondisi Logika
 if pilih == 'tambah':
     print(tambah(x, y))
 elif pilih == 'kurang':
@@ -69,10 +69,11 @@ elif pilih == 'bagi':
 else:
     print('invalid bestieh')
 
-# oh i get it, karna yg call itu print(tambah(x, y) sesuai kondisi pilih yg di input oleh user
-# dimana tambah x y itu x + y 
-# jadi dia tuh kayak muter gitu ga sih? 
-# python liat define dan operasi di dalamnya
-# lalu x dan y masuk, lalu print tambah call dan def jalan
-# lalu return nya dimasukin ke print(tambah) dan di print
-# so it's def return (simpen) > input pilihan operasi > cocokkan logika > print (tambah) di call > hasil return tambah dimasukkan ke print (tambah)
+# Penjelasan fungsi return
+karna yg call itu print(tambah(x, y) sesuai kondisi pilih yg di input oleh user
+dimana tambah x y itu x + y 
+jadi dia tuh kayak muter gitu ga sih? 
+python liat define dan operasi di dalamnya
+lalu x dan y masuk, lalu print tambah call dan def jalan
+lalu return nya dimasukin ke print(tambah) dan di print
+so it's def return (simpen) > input pilihan operasi > cocokkan logika > print (tambah) di call > hasil return tambah dimasukkan ke print (tambah)
