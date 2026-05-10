@@ -1,0 +1,3 @@
+# slicing = print('python'[0:2]) 
+# hasilnya akan jadi py 
+# karna range nya dari 0-sebelum 2, jadi 0 dan 1 doang alias cuma py

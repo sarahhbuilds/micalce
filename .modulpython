@@ -1,0 +1,86 @@
+PYTHON
+Python bahasa interpreted = artinya baris perbaris langsung di terjemahkan
+sedangkan c++ itu harus seluruh program diproses baru diterjemahkan.
+sourcecode -> interpreted (perbaris) -> hasil di termnal
+
+BYTECODE
+bytecode python = pycache
+intinya bytecode itu nyimpen ringkasan source code kita dari .py ke pycache 
+jadi ketika dijalankan kedua kali dia bisa run hasilnya lebih cepet gitu 
+karna udah ada ringkasan yg disimpen di pycache.
+
+TIPE DATA
+int = angka
+float = angka ada koma nya
+bool = true 1/false 0
+str = teks pake ""
+complex = ada j nya
+
+TIPE DATA COLLECTION
+- list = [] pake index, dimulai dari 0
+var.append() = tambah data
+var.remove() = hapus data
+- set = {}, ga pake index, gabisa elemen ganda, untuk saring duplikat
+var.add() = tambah data
+var.remove() = hapus data
+- tuple = (), gabisa ubah isi
+- dictionary = {
+    "key:", "value"
+} var.update({}) untuk nambah data
+del var['key'] untuk hapus data
+var.clear() untuk hapus dict sekaligus
+
+
+MUTABLE DAN IMMUTABLE 
+- mutable = bisa diubah valuenya
+list, dictionary, set, bytearray
+- immutable = gabisa diubah valuenya
+int, float, str, bool, tuple, frozen set (varian set yg immutable) ([1, 2])
+
+PRINT
+- kalo langsung pake kata pake ("")
+- kalo print var langsung masukkin nama var nya aja
+
+OPERASI MATEMATIKA
+* = kali 
+- = kurang 
++ = tambah 
+/ = bagi (hasilnya float)
+// = hasilnya int
+% = modulo/sisa
+- bisa digabung beberapa 
+
+KEYWORDS
+if = kondisi pertama yang di cek
+elif = kondisi kedua setelah if
+else = kondisi terakhir dari if dan elif
+for loop = perulangan 
+while = perulangan sampai suatu syarat terpenuhi
+def = panggil sebuah blok kode
+for x in range() = melakukan sesuatu berulang kali
+if x in var: = cek keanggotaan apakah x ada di var or not   
+
+SIMBOL
+!= tidak sama dengan
+== sama dengan
+>= lebih besar atau sama dengan
+<= lebih kecil atau sama dengan
+
+LIBRARY - pakai kata import
+random = library untuk hasilin urutan acak
+random.choice(var) utk list, tuple, string
+
+FUNCTION 
+variable = tempat simpen value data 
+casting = ngubah tipe data lain, data var= float(1), nanti jadi 1.0
+# atau """multiline""" untuk comment
+assignment (a = 2)
+assignment indirect (b = a) memanggil variable bukan data
+type(namavar) = untuk tahu tipe data variable
+return = ngembaliin nilai tapi belum tentu di print
+f" = ubah variabel jadi string 
+input = masukkan data
+indentasi = minimal 2x atau 4x
+hasil perbandingan == berupa boolean (true/false)
+string, list, 0, none boolean adalah false
+
