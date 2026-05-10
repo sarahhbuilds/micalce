@@ -38,6 +38,7 @@ angka ke2: 5
 - If / Elif / Else
 - Debugging
 
+# Code 
 - def tambah(x, y): >> define fungsi (tambah) dengan parameter (x, y) dan operasi (return x + y)
     return x + y
 
